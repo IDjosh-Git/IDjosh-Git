@@ -1,62 +1,57 @@
-## Hi there, I'm [Your Name] 👋
+## Hi there, I'm Josh 👋
 
 <div align="center">
   <!--  You can customize the typing text in the "lines=" section of the URL below -->
   <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Business+Intelligence;Turning+Data+into+Actionable+Insights;[Your+Specialty+Here];[Your+Experience+or+Tagline]" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Power+BI+Developer;Turning+Data+into+Actionable+Insights;SVG+DAX+%26+Dashboard+Design;Community+Builder+at+Zen+Analytics+Hub" alt="Typing SVG" />
 </div>
 
-<!-- 🔗 Update these links with your own social media and contact information -->
+<!-- 🔗 Replace these with your own links -->
 <p align="center">
-  <a href="https://linkedin.com/in/your-profile-url"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://youtube.com/your-channel-url"><img src="https://img.shields.io/badge/YouTube-My_Channel-red?style=for-the-badge&logo=youtube"></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
+  <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
 </p>
 
-## 🚀 About Me 
-I'm a data analyst passionate about helping businesses make sense of their data. I enjoy transforming complex, messy datasets into clear stories and actionable insights.
+## 🚀 About Me
+I'm a Data Analyst and community builder at **Zen Analytics Hub Ltd**, based in Nigeria. I specialize in Power BI, DAX, Power Query, and Python — with a particular focus on semantic model development, SVG DAX measure engineering, dashboard design, and data storytelling across a wide range of domains and client projects.
 
-My focus is on building dashboards that get used, automating repetitive tasks to free up teams for more interesting problems, and creating models that help businesses plan for the future.
+I also facilitate bootcamps and upskilling programs at Zen Analytics Hub, helping data professionals build practical, job-ready skills. I co-lead the community alongside a great team of colleagues.
 
-When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating content, hiking, mentoring others, etc.]. I love the "aha!" moment when data reveals something new and useful.
+I love the moment a messy dataset turns into a dashboard someone actually uses every day — that's the whole job, really.
 
-<!-- 🌐 Replace "your-username" with your actual GitHub username -->
-### [🏆 Check Out My Full Portfolio Website](https://your-username.github.io/)
-      
-## 🔭 What I'm Currently Working On 
+### [🏆 Check Out My Full Portfolio Website](https://idjoshportfolio.vercel.app)
 
-- **Project A:** [Brief, one-line description of a project, e.g., Building a sales forecasting model in Python.]  
-- **Project B:** [Brief, one-line description of another project, e.g., Creating an interactive marketing dashboard in Power BI.]
-- **Content Creation:** [e.g., Developing new tutorials on data visualization for my YouTube channel.]
+## 🔭 What I'm Currently Working On
 
-## 🌱 Currently Learning 
+- **Power BI Report Builds:** Designing and maintaining semantic models and executive-level Power BI reports for clients across logistics, real estate, healthcare, and e-commerce.
+- **SVG DAX Measure Engineering:** Building reusable, dynamic SVG-based visual components and icon/wallpaper libraries for Power BI reports.
+- **Zen Analytics Hub Bootcamps:** Facilitating upskilling programs and community content for aspiring data professionals.
 
-- [A new skill or technology you're exploring, e.g., Advanced machine learning techniques in Scikit-learn.]
-- [Another skill, e.g., Cloud data warehousing with Google BigQuery.]
+## 🌱 Currently Learning
+
+- SQL
+- HTML Visuals, SVG Visuals, M Code, Power Automate
 
 ## 🛠️ Technical Skillset
 
-<!-- This section uses Shields.io badges. You can customize them or create your own!-->
-
 #### Data Analysis & Visualization
 <p>
-  <!-- 💡 Go to Shields.io to create your own badges -->
-  <img src="https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
   <img src="https://img.shields.io/badge/Power%20BI-Expert-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI Skill Badge">
+  <img src="https://img.shields.io/badge/DAX-Expert-F2C811?style=flat" alt="DAX Skill Badge">
+  <img src="https://img.shields.io/badge/Power%20Query-Expert-F2C811?style=flat" alt="Power Query Skill Badge">
   <img src="https://img.shields.io/badge/Excel-Expert-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
-  <img src="https://img.shields.io/badge/Tableau-Intermediate-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau Skill Badge">
 </p>
 
 #### Programming & Automation
 <p>
   <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
-  <img src="https://img.shields.io/badge/R-Beginner-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
+  <img src="https://img.shields.io/badge/openpyxl%20%26%20pandas-Experienced-3776AB?style=flat" alt="openpyxl/pandas Skill Badge">
 </p>
 
 #### Business Intelligence & Analytics
 <p>
-  <img src="https://img.shields.io/badge/A%2FB%20Testing-Experienced-FF6B6B?style=flat" alt="A/B Testing Skill Badge">
-  <img src="https://img.shields.io/badge/Statistical%20Analysis-Experienced-4ECDC4?style=flat" alt="Statistical Analysis Skill Badge">
-  <img src="https://img.shields.io/badge/Predictive%20Modeling-Intermediate-45B7D1?style=flat" alt="Predictive Modeling Skill Badge">
-  <img src="https://img.shields.io/badge/KPI%20Development-Expert-96CEB4?style=flat" alt="KPI Development Skill Badge">
+  <img src="https://img.shields.io/badge/Semantic%20Modeling-Expert-96CEB4?style=flat" alt="Semantic Modeling Skill Badge">
+  <img src="https://img.shields.io/badge/SVG%20DAX%20Measures-Expert-45B7D1?style=flat" alt="SVG DAX Skill Badge">
+  <img src="https://img.shields.io/badge/Dashboard%20Design-Expert-96CEB4?style=flat" alt="Dashboard Design Skill Badge">
+  <img src="https://img.shields.io/badge/Data%20Storytelling-Expert-4ECDC4?style=flat" alt="Data Storytelling Skill Badge">
 </p>
