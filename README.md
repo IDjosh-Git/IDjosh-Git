@@ -19,7 +19,7 @@ I also facilitate bootcamps and upskilling programs at Zen Analytics Hub, helpin
 
 I love the moment a messy dataset turns into a dashboard someone actually uses every day — that's the whole job, really.
 
-### [🏆 Check Out My Full Portfolio Website](https://idjoshportfolio.vercel.app)
+### [🏆 Check Out My Full Portfolio Website](https://idjoshportflio.vercel.app/)
 
 ## 🔭 What I'm Currently Working On
 
