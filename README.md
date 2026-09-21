@@ -21,7 +21,7 @@ At **Zen Analytics Hub**, I actively facilitate hands-on bootcamps, workshops, a
 
 > *I love the moment a messy dataset turns into a dashboard someone actually uses every day — that's the whole job, really.*
 
-🏆 **[Explore My Live Portfolio & Case Studies](#)** *(Link to your hosted portfolio site)*
+🏆 **[Explore My Live Portfolio & Case Studies](#)** *([https://idjoshportflio.vercel.app/])*
 
 ---
 
