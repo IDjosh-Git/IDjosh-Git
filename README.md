@@ -38,7 +38,7 @@ At **Zen Analytics Hub**, I actively facilitate hands-on bootcamps, workshops, a
 | Category | Core Skills & Technologies |
 | :--- | :--- |
 | **Business Intelligence** | Power BI Desktop & Service, DAX, Power Query (M), TMDL, Tabular Editor, Excel |
-| **Languages & Scripts** | Python (`pandas`, `openpyxl`), SQL, SVG (XML), HTML/CSS Visuals |
+| **Languages & Scripts** | SQL, SVG (XML), HTML/CSS Visuals |
 | **Architecture & Ops** | Star-Schema Modeling, Data Governance, Power Automate, Git/GitHub Version Control |
 | **Community Leadership** | Curriculum Development, Bootcamp Facilitation, Technical Mentorship |
 
