@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Typing SVG Banner -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Power+BI+Developer;Turning+Data+into+Actionable+Insights;SVG+DAX+%26+Dashboard+Design;Community+Builder+at+Zen+Analytics+Hub" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Data+Analyst+%7C+Power+BI+Developer;SVG+DAX+Engineer+%26+Dashboard+Architect;Semantic+Modeling+%7C+Power+Query+M;Community+Builder+%40+Zen+Analytics+Hub" alt="Typing SVG" />
 
   <p align="center">
     <a href="https://github.com/IDjosh-Git"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
@@ -12,72 +12,80 @@
 ---
 
 ## 🚀 About Me
-I'm a **Data Analyst** and community builder at **Zen Analytics Hub Ltd**, based in Nigeria. I specialize in **Power BI, DAX, Power Query, and Python** — with a focus on semantic model development, SVG DAX measure engineering, dashboard design, and data storytelling across client projects.
 
-I also facilitate bootcamps and upskilling programs at Zen Analytics Hub, helping aspiring data professionals build practical, job-ready skills.
+I am a **Data Analyst, Power BI Developer, and Analytics Engineer** based in Nigeria, co-leading community upskilling initiatives at **Zen Analytics Hub Ltd**. 
+
+My work centers on bridging raw data with strategic decision-making. I specialize in designing scalable star-schema semantic models, crafting bespoke SVG visual measures in DAX, optimizing Power Query (M) transformations, and delivering executive dashboards tailored for client adoption across diverse domains.
+
+At **Zen Analytics Hub**, I actively facilitate hands-on bootcamps, workshops, and mentoring programs aimed at helping aspiring data professionals transition into production-ready roles.
 
 > *I love the moment a messy dataset turns into a dashboard someone actually uses every day — that's the whole job, really.*
 
-🏆 **[Check Out My Full Portfolio Website](#)** *(Add your portfolio link here)*
+🏆 **[Explore My Live Portfolio & Case Studies](#)** *(Link to your hosted portfolio site)*
 
 ---
 
-## 🔭 What I'm Currently Working On
-* **Power BI Report Builds:** Designing and maintaining semantic models and executive-level Power BI reports across logistics, real estate, healthcare, and e-commerce.
-* **SVG DAX Measure Engineering:** Building reusable, dynamic SVG-based visual components and custom icon/wallpaper libraries for Power BI reports.
-* **Zen Analytics Hub Bootcamps:** Facilitating upskilling programs, workshops, and community content for data professionals.
+## 🛠️ Technical Capabilities & Stack
+
+### Business Intelligence & Analytics Engineering
+* **Data Modeling:** Star-schema architecture, TMDL measure management, incremental refresh strategies, granular RLS/OLS security implementation, and performance tuning via Tabular Editor.
+* **SVG DAX Engineering:** Hand-crafting dynamic SVG visual measures (progress bars, inline KPI cards, sparklines, custom icons, and theme-adaptive UI badges) directly within DAX calculations.
+* **ETL & Data Wrangling:** Complex data extraction, parameterization, and automated directory ingestion using Power Query (M Code), openpyxl, and pandas.
+* **Dashboard UX/UI:** User-centered layout design, customized navigation flows, custom JSON theme palettes, dark/light mode toggles, and dynamic bookmarking.
+
+### Skillset Overview
+
+| Category | Core Skills & Technologies |
+| :--- | :--- |
+| **Business Intelligence** | Power BI Desktop & Service, DAX, Power Query (M), TMDL, Tabular Editor, Excel |
+| **Languages & Scripts** | Python (`pandas`, `openpyxl`), SQL, SVG (XML), HTML/CSS Visuals |
+| **Architecture & Ops** | Star-Schema Modeling, Data Governance, Power Automate, Git/GitHub Version Control |
+| **Community Leadership** | Curriculum Development, Bootcamp Facilitation, Technical Mentorship |
 
 ---
 
-## 💼 Featured Work
-* **[Sales Analytics Model](#):** Star-schema model (`Fact_Sales` / `Dim_Products` / `Dim_Customers` / `Dim_Regions`) featuring a 2-page executive report.
-* **[Spark Pixel Order Report](#):** E-commerce order analytics model featuring an extensive SVG icon library, custom navigation menus, and theme switching.
-* **[Transportation Analysis Report](#):** Executive-level insights covering journeys, delays, weather scenarios, and EV charging equity.
-* **[DM Logistics Report](#):** Carrier performance dashboard built on TMDL measures with a custom SVG icon set and color theme.
+## 💼 Featured Projects & Case Studies
+
+### 🛒 [Spark Pixel E-Commerce Analytics](#)
+> *End-to-end e-commerce order management and fulfillment dashboard with custom SVG interface integration.*
+* **Architecture:** Enterprise star-schema model separating facts (Orders, Order Lines) from dimensions (Customers, Products, Geography, Dates).
+* **Highlights:** Native theme-switching engine, dynamic SVG navigation menus, and inline order status KPI cards engineered via SVG DAX measures.
+
+### 🚚 [DM Logistics Carrier Performance Report](#)
+> *Executive-level logistics dashboard monitoring carrier SLAs, delivery turnaround times, and fleet efficiencies.*
+* **Architecture:** TMDL-driven measure organization built with modular DAX logic for rapid deployment.
+* **Highlights:** Dynamic SVG icon set representing shipment statuses and custom carrier scorecard tables.
+
+### 🚗 [Transportation & EV Mobility Analytics](#)
+> *Strategic mobility report analyzing travel patterns, route delays, weather correlations, and EV charging equity.*
+* **Architecture:** Multi-fact data engine integrating environmental scenarios with transportation metrics.
+* **Highlights:** Spatial equity mapping, delay root-cause decomposition, and executive narrative summaries.
+
+### 📊 [Enterprise Sales Analytics Model](#)
+> *Two-page executive report powered by a robust core data model (`Fact_Sales`, `Dim_Products`, `Dim_Customers`, `Dim_Regions`).*
+* **Architecture:** Optimized star schema supporting time-intelligence calculations (YTD, YoY, Moving Averages).
+* **Highlights:** Product profitability matrix, regional performance rankings, and automated anomaly alerts.
 
 ---
 
-## 🌱 Currently Learning
-* **Languages & Visuals:** SQL, HTML Visuals, SVG Visuals, M Code
-* **Automation:** Power Automate
+## 🎨 Sample SVG DAX Showcase
 
----
+Here is an example of an SVG measure I engineer to render custom, data-driven KPI progress indicators directly inside Power BI matrix tables without external visuals:
 
-## 🛠️ Technical Skillset
+```dax
+// Dynamic SVG KPI Progress Bar Measure
+SVG_ProgressBar = 
+VAR TargetValue = [Target Sales]
+VAR ActualValue = [Total Sales]
+VAR Percentage = DIVIDE(ActualValue, TargetValue, 0)
+VAR ClampedPct = MIN(MAX(Percentage, 0), 1)
+VAR BarWidth = INT(ClampedPct * 100)
+VAR FillColor = IF(Percentage >= 1, "%23217346", "%23E66C37") // Green if goal met, else Orange
 
-**Data Analysis & Visualization**
-<p>
-  <img src="https://img.shields.io/badge/Power%20BI-Expert-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI">
-  <img src="https://img.shields.io/badge/DAX-Expert-F2C811?style=flat" alt="DAX">
-  <img src="https://img.shields.io/badge/Power%20Query-Expert-F2C811?style=flat" alt="Power Query">
-  <img src="https://img.shields.io/badge/Excel-Expert-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel">
-</p>
-
-**Programming & Automation**
-<p>
-  <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/openpyxl%20%26%20pandas-Experienced-3776AB?style=flat" alt="openpyxl & pandas">
-</p>
-
-**Business Intelligence & Architecture**
-<p>
-  <img src="https://img.shields.io/badge/Semantic%20Modeling-Expert-96CEB4?style=flat" alt="Semantic Modeling">
-  <img src="https://img.shields.io/badge/SVG%20DAX%20Measures-Expert-45B7D1?style=flat" alt="SVG DAX Measures">
-  <img src="https://img.shields.io/badge/Dashboard%20Design-Expert-96CEB4?style=flat" alt="Dashboard Design">
-  <img src="https://img.shields.io/badge/Data%20Storytelling-Expert-4ECDC4?style=flat" alt="Data Storytelling">
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=IDjosh-Git&show_icons=true&theme=tokyonight&hide_border=true" alt="Josh's GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IDjosh-Git&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
-<p align="center">
-  <i>Thanks for stopping by — feel free to reach out if you'd like to talk data, dashboards, or Power BI!</i>
-</p>
+RETURN
+"data:image/svg+xml;utf8," &
+"<svg xmlns='[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)' width='120' height='18' viewBox='0 0 120 18'>" &
+"  <rect x='0' y='3' width='100' height='12' rx='6' fill='%23E0E0E0'/>" &
+"  <rect x='0' y='3' width='" & BarWidth & "' height='12' rx='6' fill='" & FillColor & "'/>" &
+"  <text x='105' y='13' font-family='Arial' font-size='10' fill='%23333333'>" & FORMAT(Percentage, "0%") & "</text>" &
+"</svg>"
