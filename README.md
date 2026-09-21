@@ -68,8 +68,8 @@ I love the moment a messy dataset turns into a dashboard someone actually uses e
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IDjosh-Git&show_icons=true&theme=default" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IDjosh-Git" alt="GitHub Streak" height="165">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=IDjosh-Git&show_icons=true&theme=default" alt="GitHub Stats" height="165">
+  <img src="https://github-readme-streak-stats-sigma-five.vercel.app/?user=IDjosh-Git" alt="GitHub Streak" height="165">
 </p>
 
 ---
