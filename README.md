@@ -20,7 +20,7 @@
 <a href="mailto:Esoterikjoshua@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-<a href="https://idjoshportflio.vercel.app/">
+<a href="https://idjoshportfolio.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-View%20Projects-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 
@@ -859,7 +859,7 @@ I can support organizations and project teams with:
 
 For complete project walkthroughs, dashboard screenshots, case studies, and additional work:
 
-### 🔗 [Visit My Data Analytics Portfolio](https://idjoshportflio.vercel.app/)
+### 🔗 [Visit My Data Analytics Portfolio](https://idjoshportfolio.vercel.app/)
 
 ---
 
@@ -881,7 +881,7 @@ If you're interested in **Power BI, analytics engineering, dashboard development
   <img src="https://img.shields.io/badge/GitHub-IDjosh--Git-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://idjoshportflio.vercel.app/">
+<a href="https://idjoshportfolio.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-View%20My%20Work-6C63FF?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
